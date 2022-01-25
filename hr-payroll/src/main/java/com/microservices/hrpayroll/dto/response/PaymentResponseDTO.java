@@ -9,10 +9,11 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Getter
 @Builder
-public class PayrollResponseDTO {
+public class PaymentResponseDTO {
 
     private String name;
     private Double dailyIncome;
     private Integer days;
+    private Double total;
 
 }
