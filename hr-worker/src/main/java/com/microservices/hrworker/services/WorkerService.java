@@ -1,10 +1,10 @@
-package com.microservices.hrpayroll.services;
+package com.microservices.hrworker.services;
 
-import com.microservices.hrpayroll.dto.response.WorkerResponseDTO;
-import com.microservices.hrpayroll.entities.Worker;
-import com.microservices.hrpayroll.exception.WorkerException;
-import com.microservices.hrpayroll.repositories.WorkerRepository;
-import com.microservices.hrpayroll.utils.ErrorMessages;
+import com.microservices.hrworker.dto.response.WorkerResponseDTO;
+import com.microservices.hrworker.entities.Worker;
+import com.microservices.hrworker.exception.WorkerException;
+import com.microservices.hrworker.repositories.WorkerRepository;
+import com.microservices.hrworker.utils.ErrorMessages;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

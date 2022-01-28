@@ -1,4 +1,4 @@
-package com.microservices.hrpayroll.entities;
+package com.microservices.hrworker.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

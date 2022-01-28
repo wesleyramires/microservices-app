@@ -1,6 +1,6 @@
-package com.microservices.hrpayroll.exception;
+package com.microservices.hrworker.exception;
 
-import com.microservices.hrpayroll.utils.ErrorMessages;
+import com.microservices.hrworker.utils.ErrorMessages;
 import lombok.Getter;
 
 import java.util.Arrays;

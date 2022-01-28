@@ -1,6 +1,6 @@
-package com.microservices.hrpayroll.repositories;
+package com.microservices.hrworker.repositories;
 
-import com.microservices.hrpayroll.entities.Worker;
+import com.microservices.hrworker.entities.Worker;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

@@ -1,4 +1,4 @@
-package com.microservices.hrpayroll.dto.response;
+package com.microservices.hrworker.dto.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,8 +1,8 @@
-package com.microservices.hrpayroll.controller;
+package com.microservices.hrworker.controller;
 
-import com.microservices.hrpayroll.dto.response.WorkerResponseDTO;
-import com.microservices.hrpayroll.dto.response.utils.ResponseDTO;
-import com.microservices.hrpayroll.services.WorkerService;
+import com.microservices.hrworker.dto.response.WorkerResponseDTO;
+import com.microservices.hrworker.dto.response.utils.ResponseDTO;
+import com.microservices.hrworker.services.WorkerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

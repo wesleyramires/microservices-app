@@ -1,4 +1,4 @@
-package com.microservices.hrpayroll.dto.request;
+package com.microservices.hrworker.dto.request;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

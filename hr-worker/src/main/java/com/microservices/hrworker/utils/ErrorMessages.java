@@ -1,4 +1,4 @@
-package com.microservices.hrpayroll.utils;
+package com.microservices.hrworker.utils;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
