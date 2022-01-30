@@ -4,6 +4,7 @@ import com.microservices.hrworker.dto.response.WorkerResponseDTO;
 import com.microservices.hrworker.dto.response.utils.ResponseDTO;
 import com.microservices.hrworker.services.WorkerService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
@@ -17,8 +18,17 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/workers")
 public class WorkerController {
 
+    @Value("${test.config}")
+    private String testConfig;
+
     @Autowired
     private WorkerService workerService;
+
+    @GetMapping(value = "/configs")
+    public ResponseEntity<Void> getProfilleConfig() {
+        System.out.println("CONFIG: ".concat(testConfig));
+        return ResponseEntity.noContent().build();
+    }
 
     @GetMapping
     public ResponseEntity<ResponseDTO<Page<WorkerResponseDTO>>> findAll(Pageable pageable) {
